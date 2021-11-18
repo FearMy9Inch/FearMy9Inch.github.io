@@ -163,12 +163,10 @@ body {
 }
 
 .short-info {
-  position: absolute;
-  display: flex;
+  position: relative;
   width: 1240px;
-  height: 288px;
   left: 100px;
-  top: 1000px;
+  padding-top: 150px;
 
   display: flex;
   justify-content: space-between;
@@ -206,4 +204,170 @@ body {
   margin-bottom: 72px;
   width: 56px;
   height: 56px;
+}
+
+.main-content {
+  position: relative;
+  width: 1440px;
+  height: 1350px;
+  left: 0px;
+  top: 152px;
+}
+
+.container-1 {
+  width: 1340px;
+  display: flex;
+  margin-bottom: 148px;
+}
+
+.container-info-1 {
+  width: 493px;
+  height: 360px;
+  margin-left: 147px;
+}
+
+.container-1-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+  /* or 181% */
+
+  color: #212121;
+}
+
+.container-1-desc {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  /* or 200% */
+
+  margin-top: 50px;
+
+  color: #747474;
+}
+
+.container-1-img {
+  background-image: url("img/newTask.png");
+  width: 700px;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+
+.container-2 {
+  position: relative;
+  width: 1336px;
+  height: 600px;
+  left: 104px;
+  display: flex;
+}
+
+.container-2-img {
+  position: relative;
+  background-image: url("img/smarthphoneDisplay.png");
+  width: 700px;
+  height: 600px;
+  left: 740px;
+}
+
+.container-info-2 {
+  position: absolute;
+  width: 493px;
+  height: 360px;
+  left: 104px;
+}
+
+.container-2-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+  /* or 181% */
+
+  color: #212121;
+}
+
+.container-2-desc {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  /* or 200% */
+
+  color: #747474;
+}
+
+.container-download-about {
+  position: relative;
+  margin: 0 auto;
+  width: 1240px;
+  height: 500px;
+  margin-top: 298px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #2d76f9;
+  border-radius: 100px;
+}
+
+.download-about-title {
+  position: absolute;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+  /* or 181% */
+
+  text-align: center;
+
+  top: 100px;
+
+  color: #ffffff;
+}
+
+.download {
+  position: absolute;
+  bottom: 100px;
+  left: 345px;
+
+  background: #ffffff;
+  border-radius: 1500px;
+  border: 1.5px solid #ffffff;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 24px 58px;
+  /* identical to box height */
+
+  color: #2d76f9;
+}
+
+.about {
+  position: absolute;
+  bottom: 100px;
+  right: 345px;
+
+  background: #2d76f9;
+  border-radius: 1500px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 24px 58px;
+  /* identical to box height */
+
+  border: 1.5px solid #ffffff;
+  color: #fff;
 }
