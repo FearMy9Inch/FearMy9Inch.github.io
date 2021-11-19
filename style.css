@@ -80,6 +80,7 @@ body {
 
 .navbar-links:hover {
   color: #2d76f9;
+  font-weight: 700;
 }
 
 .navbar-btn {
@@ -99,6 +100,7 @@ body {
   color: #2d76f9;
   text-transform: capitalize;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .hero {
@@ -124,7 +126,6 @@ body {
   top: 495px;
 
   font-family: Poppins;
-  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 36px;
@@ -141,6 +142,7 @@ body {
 
   background: #2d76f9;
   border-radius: 1500px;
+  border: #fff;
 
   font-family: Poppins;
   font-style: normal;
@@ -150,6 +152,7 @@ body {
 
   color: #ffffff;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 .hero-img {
@@ -350,6 +353,7 @@ body {
   /* identical to box height */
 
   color: #2d76f9;
+  cursor: pointer;
 }
 
 .about {
@@ -370,4 +374,191 @@ body {
 
   border: 1.5px solid #ffffff;
   color: #fff;
+  cursor: pointer;
+}
+
+.app-opinions {
+  position: relative;
+  padding: 150px 0;
+
+  display: flex;
+}
+
+.app-opinions-img {
+  background-image: url("img/Testimonial Img.png");
+  width: 700px;
+  height: 600px;
+  left: 0px;
+}
+
+.app-opinions-img::before {
+  position: absolute;
+  content: "";
+  background-image: url("img/Rectangle 10.png");
+  width: 700px;
+  height: 600px;
+  left: 0px;
+  z-index: -10;
+}
+
+.app-opinions-box {
+  position: relative;
+  width: 493px;
+  height: 481px;
+  padding-left: 194px;
+}
+
+.app-opinions-title {
+  width: 493px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 65px;
+  /* identical to box height, or 181% */
+
+  color: #212121;
+}
+
+.app-opinions-comment {
+  width: 493px;
+  padding-top: 174px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  /* or 200% */
+
+  color: #212121;
+}
+
+.app-opinions-comment-nav {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 50px;
+  width: 109px;
+  height: 42px;
+}
+
+.app-opinions-prev-arrow {
+  background-image: url("img/la_arrow-left.svg");
+  width: 42px;
+  height: 42px;
+  border: none;
+  background-color: white;
+
+  opacity: 0.5;
+  transition: 0.3s;
+
+  cursor: pointer;
+}
+
+.app-opinions-prev-arrow:hover {
+  opacity: 1;
+}
+
+.app-opinions-next-arrow {
+  background-image: url("img/la_arrow-right.svg");
+  width: 42px;
+  height: 42px;
+  border: none;
+  background-color: white;
+
+  opacity: 0.5;
+  transition: 0.3s;
+
+  cursor: pointer;
+}
+
+.app-opinions-next-arrow:hover {
+  opacity: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+
+  width: 1440px;
+  height: 450px;
+  left: 0px;
+}
+
+.footer-column {
+  top: 75px;
+  position: relative;
+}
+
+.footer-logo-container {
+  width: 308px;
+  height: 100px;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+
+.footer-logo-title {
+  margin-left: 30px;
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+
+  color: #212121;
+}
+
+.footer-logo-title p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  /* or 200% */
+
+  color: #747474;
+}
+
+.footer-title {
+  position: relative;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.footer-list a {
+  position: relative;
+  top: 58px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  /* or 200% */
+
+  color: #747474;
+}
+
+.social {
+  display: flex;
+}
+
+.footer-link {
+  padding-right: 40px;
+}
+
+.footer-link-page {
+  width: 36px;
+  height: 36px;
 }
